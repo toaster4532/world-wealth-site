@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Wealth Distribution - Global Wealth Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Regional Wealth Distribution</h1>
+            <p class="subtitle">Understanding wealth patterns across different regions</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <a href="index.html">Global Overview</a>
+            <a href="regional.html" class="active">Regional Analysis</a>
+            <a href="trends.html">Future Trends</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="section">
+            <h2>Regional Wealth Overview</h2>
+            <p class="section-intro">Wealth distribution varies significantly across regions, reflecting different stages of economic development, policy approaches, and historical contexts.</p>
+            
+            <div class="chart-container">
+                <canvas id="regionalWealthChart"></canvas>
+            </div>
+
+            <div class="region-grid">
+                <div class="region-card major">
+                    <h3>North America</h3>
+                    <p class="highlight">$140.2T</p>
+                    <p class="subtitle">Leading Region</p>
+                    <ul>
+                        <li>Largest concentration of global wealth</li>
+                        <li>Strong technology and innovation sectors</li>
+                        <li>Robust financial markets</li>
+                        <li>High per capita wealth</li>
+                    </ul>
+                </div>
+
+                <div class="region-card major">
+                    <h3>Europe</h3>
+                    <p class="highlight">$103.1T</p>
+                    <p class="subtitle">Second Largest</p>
+                    <ul>
+                        <li>Strong social welfare systems</li>
+                        <li>Established banking sector</li>
+                        <li>Diverse economic base</li>
+                        <li>High standard of living</li>
+                    </ul>
+                </div>
+
+                <div class="region-card major">
+                    <h3>Asia Pacific</h3>
+                    <p class="highlight">$75.3T</p>
+                    <p class="subtitle">Fastest Growing</p>
+                    <ul>
+                        <li>Rapid economic growth</li>
+                        <li>Growing middle class</li>
+                        <li>Technology hub emergence</li>
+                        <li>Strong manufacturing base</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="section-subheading">Emerging Markets</h3>
+            <div class="region-grid">
+                <div class="region-card emerging">
+                    <h3>China</h3>
+                    <p class="highlight">$85.1T</p>
+                    <p class="subtitle">Emerging Giant</p>
+                    <ul>
+                        <li>Second-largest economy globally</li>
+                        <li>Rapid wealth accumulation</li>
+                        <li>Growing tech sector</li>
+                        <li>Infrastructure development</li>
+                    </ul>
+                </div>
+
+                <div class="region-card emerging">
+                    <h3>Latin America</h3>
+                    <p class="highlight">$11.4T</p>
+                    <p class="subtitle">Developing Region</p>
+                    <ul>
+                        <li>Rich in natural resources</li>
+                        <li>Growing service sector</li>
+                        <li>Increasing foreign investment</li>
+                        <li>Economic reforms</li>
+                    </ul>
+                </div>
+
+                <div class="region-card emerging">
+                    <h3>Africa</h3>
+                    <p class="highlight">$4.7T</p>
+                    <p class="subtitle">Future Potential</p>
+                    <ul>
+                        <li>Young, growing population</li>
+                        <li>Technology adoption</li>
+                        <li>Natural resource wealth</li>
+                        <li>Emerging startup ecosystem</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-box">
+                <h3>Key Regional Insights</h3>
+                <ul class="insight-list">
+                    <li><strong>Wealth Concentration:</strong> The top three regions hold over 70% of global wealth</li>
+                    <li><strong>Growth Dynamics:</strong> Emerging markets are growing at 2-3 times the rate of developed regions</li>
+                    <li><strong>Technology Impact:</strong> Digital transformation is accelerating wealth creation in all regions</li>
+                    <li><strong>Future Outlook:</strong> Asia-Pacific expected to see the highest wealth growth in the next decade</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section">
+        <div class="container">
+            <p>Data sources: Credit Suisse Global Wealth Report 2023, World Bank, and Forbes</p>
+            <p class="footer-note">All figures are based on the latest available data as of 2023.</p>
+        </div>
+    </footer>
+</body>
+</html>

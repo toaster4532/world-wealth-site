@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Wealth Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.svg" alt="WorldWealth Logo" class="logo">
+            <h1>Global Wealth Insights</h1>
+            <p class="subtitle">Understanding global wealth inequality, distribution patterns, and economic trends in 2023</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <a href="index.html" class="active">Global Overview</a>
+            <a href="regional.html">Regional Analysis</a>
+            <a href="trends.html">Future Trends</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="section">
+            <h2>Global Wealth Overview</h2>
+            <p class="section-intro">The world's wealth continues to grow despite global challenges, reaching new heights in 2023. Understanding how this wealth is distributed helps us grasp global economic inequality and opportunities for development.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Global Net Worth</h3>
+                    <p class="highlight">$454.4T</p>
+                    <p>Total global wealth as of 2023</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Wealth Per Adult</h3>
+                    <p class="highlight">$87,489</p>
+                    <p>Average global wealth per adult</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Millionaires Worldwide</h3>
+                    <p class="highlight">62.5M</p>
+                    <p>Number of millionaires globally</p>
+                </div>
+            </div>
+
+            <div class="text-box">
+                <h3>Understanding Global Wealth</h3>
+                <p>Global wealth represents the total net worth of all individuals, including financial assets and real estate, minus their debts. The distribution of this wealth reveals significant disparities between regions and population segments.</p>
+                <p>Key factors influencing wealth distribution include:</p>
+                <ul>
+                    <li>Economic policies and governance</li>
+                    <li>Access to education and opportunities</li>
+                    <li>Historical economic development</li>
+                    <li>Market conditions and investment opportunities</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Wealth Distribution by Percentile</h2>
+            <p class="section-intro">The global wealth pyramid shows striking inequality, with the top 1% holding more wealth than the bottom 90% combined.</p>
+            <div class="chart-container">
+                <canvas id="wealthDistributionChart"></canvas>
+            </div>
+            <div class="text-box">
+                <h3>Wealth Concentration</h3>
+                <p>The concentration of wealth at the top has been increasing over the past decades. In 2023:</p>
+                <ul>
+                    <li><strong>Top 1%:</strong> Owns 38.2% of global wealth</li>
+                    <li><strong>Next 9%:</strong> Controls 44.3% of wealth</li>
+                    <li><strong>Middle 40%:</strong> Holds 16.5% of wealth</li>
+                    <li><strong>Bottom 50%:</strong> Possesses just 1% of global wealth</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Quick Navigation</h2>
+            <div class="nav-cards">
+                <a href="regional.html" class="nav-card">
+                    <h3>Regional Analysis</h3>
+                    <p>Explore wealth distribution across different regions and economic zones</p>
+                </a>
+                <a href="trends.html" class="nav-card">
+                    <h3>Future Trends</h3>
+                    <p>Discover emerging patterns and future projections in global wealth</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section">
+        <div class="container">
+            <p>Data sources: Credit Suisse Global Wealth Report 2023, World Bank, and Forbes</p>
+            <p class="footer-note">All figures are based on the latest available data as of 2023.</p>
+        </div>
+    </footer>
+</body>
+</html>
